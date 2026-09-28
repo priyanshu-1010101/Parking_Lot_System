@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Parking Lot System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="app">
+        <h1>Parking Lot System</h1>
+        <p class="sub">Pick an action, then answer the prompts in the box below the buttons.</p>
+
+        <div id="screen" aria-live="polite"></div>
+
+        <div class="btns">
+            <button id="bFloor">Add floor</button>
+            <button id="bSpot">Add spot</button>
+            <button id="bPark">Park vehicle</button>
+            <button id="bUnpark">Unpark vehicle</button>
+            <button id="bStatus">Show occupancy</button>
+            <button id="bClear" class="plain">Clear screen</button>
+        </div>
+
+        <input id="input" type="text" autocomplete="off" placeholder="Type your answer and press Enter">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
