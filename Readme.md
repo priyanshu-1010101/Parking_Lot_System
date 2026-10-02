@@ -21,11 +21,7 @@ Parking Lot Management is a classic low-level design problem. This project lets 
 
 ## Live Demo
 
-<<<<<<< HEAD
 Try the browser version here:    https://priyanshu-1010101.github.io/Parking_Lot_System/web/
-=======
-Try the browser version here: `   https://priyanshu-1010101.github.io/Parking_Lot_System/web/`
->>>>>>> 317f0a9 (Fix live demo link)
 
 ## Project Structure
 
